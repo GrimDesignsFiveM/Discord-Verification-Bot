@@ -1,0 +1,43 @@
+{
+  "token": "NjExNTExMzM1MjI1OTE3NDUw.XVU4ZQ.ybHBHV6EiGawEpG9qypVMxoBfmE",
+  "prefix": "$",
+  "deleteMessages": false,
+  "presence": {
+  "type": "watching",
+    "name": "people verify"
+  },
+
+   "servers": {
+    "610840809083895808": {
+      "verificationChannel": "611512212883898371",
+      "verifyRole": "611511518345035778"
+    }
+  },
+
+  "ignoreServers": [
+
+  ],
+
+  "commands": {
+    "ping": {
+      "executors": [],
+      "requiredPermissions": [],
+      "enabled": true
+    },
+    "verify": {
+      "executors": [],
+      "requiredPermissions": [],
+      "enabled": true
+    },
+    "unverify": {
+      "executors": [],
+      "requiredPermissions": [],
+      "enabled": true
+    },
+    "version": {
+      "executors": [],
+      "requiredPermissions": [],
+      "enabled": true
+    }
+  }
+}

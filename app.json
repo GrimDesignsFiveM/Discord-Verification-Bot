@@ -1,0 +1,27 @@
+{
+  "name": "ツ Ticket Bot ツ",
+  "description": "the Discord bot for super cool support ticket stuff and more! Using discord.js Library",
+  "keywords": [
+    "node",
+    "heroku",
+    "discord"
+  ],
+  "website": "https://the-watchers.webnode.com/",
+  "repository": "https://github.com/GrimDesignsFiveM/The-Watchers-Ticket-Bot",
+  "logo": "https://cdn.discordapp.com/attachments/586095704057970708/587949134632321034/imageedit_1_8018298797.png",
+  "success_url": "/welcome",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "A Secret Bot Token, Used To Login The BOT. Get The Token In Your App Settings.",
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "A Prefix To Run Your Bot Commands.",
+      "value": ""
+    },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

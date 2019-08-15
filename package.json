@@ -1,0 +1,36 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "discord.js": "^11.3.2",
+    "discord.js-musicbot-addon": "^12.0.6",
+    "enmap": "^3.0.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "integer": "2.1.0",
+    "google": "^2.1.0",
+	"jimp": "^0.6.4",
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2",
+    "lodash.unset": "^4.5.2",
+    "moment": "^2.24.0",
+    "node-gyp": "^4.0.0",
+    "node-fetch": "^2.3.0",
+    "node-superfetch": "^0.1.9",
+    "os-utils": "0.0.14",
+    "opusscript": "0.0.6",
+    "quick-db": "1.0.5",
+    "random-puppy": "^1.1.0",
+    "superagent": "^5.0.5",
+    "urban": "^0.3.2",
+    "ytdl-core": "^0.24.0"
+  }
+}
