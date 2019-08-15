@@ -1,10 +1,10 @@
 {
   "name": "Mr Clean",
-  "version": "Beta v1.00",
+  "version": "beta",
   "description": "Discord Server Captcha Verification Bot",
   "main": "client.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node client.js"
   },
   "keywords": [],
   "author": "",
