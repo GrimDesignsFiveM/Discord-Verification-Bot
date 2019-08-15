@@ -37,7 +37,7 @@
     "version": {
       "executors": [],
       "requiredPermissions": [],
-      "enabled": true
+      "enabled": false
     }
   }
 }
