@@ -7,7 +7,7 @@ module.exports = function(message) {
         fields: [
             {
                 name: "Local version",
-                value: "v" + version,
+                value: version,
                 inline: true
             }
         ]
