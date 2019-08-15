@@ -12,7 +12,7 @@ module.exports = async function(message) {
         // No arguments provided
 
         const captcha = randomBytes(32).toString("hex").substr(0, 6);
-        const font = await Jimp.loadFont(Jimp.FONT_SANS_64_BLACK);
+        const font = await Jimp.loadFont(Jimp.FONT_SANS_64_BLUE);
         const image = await Jimp.read("./assets/noise.jpg");
         image.print(font, 0, 0, captcha);
 
