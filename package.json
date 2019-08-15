@@ -1,8 +1,8 @@
 {
   "name": "Mr. Clean",
-  "version": "Beta Release",
+  "version": "Beta v1.00",
   "description": "",
-  "main": "client.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
