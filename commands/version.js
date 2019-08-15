@@ -3,7 +3,7 @@ const { version } = require("../package");
 
 module.exports = function(message) {
     const embed = {
-        title: "DiscordCaptcha | Version Check",
+        title: "Version Check",
         fields: [
             {
                 name: "Local version",
