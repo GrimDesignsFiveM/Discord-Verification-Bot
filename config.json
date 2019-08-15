@@ -7,13 +7,6 @@
     "name": "people verify"
   },
 
-   "servers": {
-    "610840809083895808": {
-      "verificationChannel": "611512212883898371",
-      "verifyRole": "611511518345035778"
-    }
-  },
-
   "ignoreServers": [
 
   ],
