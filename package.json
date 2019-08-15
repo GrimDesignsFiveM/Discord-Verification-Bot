@@ -1,6 +1,6 @@
 {
   "name": "Mr Clean",
-  "version": "1.00-Beta",
+  "version": "Beta-Release",
   "description": "Discord Server Captcha Verification Bot",
   "main": "client.js",
   "scripts": {
