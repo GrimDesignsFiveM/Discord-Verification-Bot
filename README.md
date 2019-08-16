@@ -2,6 +2,7 @@
 A Captcha verification bot based off of Discord.js.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ba341e35d2c84bc0a0adc6a2ae2f4e1c)](https://app.codacy.com/app/y21/discordcaptcha?utm_source=github.com&utm_medium=referral&utm_content=y21/discordcaptcha&utm_campaign=badger)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FDiscord-Verification-Bot.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FDiscord-Verification-Bot?ref=badge_shield)
 <img src="https://travis-ci.org/y21/discordcaptcha.svg?branch=master"/>
 
 Feel free to join the <a href="https://discord.gg/955naZw">Discord server</a> if you need help with setting up DiscordCaptcha.
@@ -84,3 +85,7 @@ _Example config.json_
 ## Tips
 • Contact me via discord. (y21#0909 | ID: 312715611413413889)<br/>
 • Open a Pull Request/Issue
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FDiscord-Verification-Bot.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FGrimDesignsFiveM%2FDiscord-Verification-Bot?ref=badge_large)
