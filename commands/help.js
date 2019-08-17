@@ -15,13 +15,13 @@ exports.run = async (client, message, args) => {
 //This is your Command or Discord Rich Embed code Line followed by the end of the command. OR close "}" bracket
  message.delete().catch();	 
    let hEmbed = new Discord.RichEmbed()
-   .setTitle("Ninja Gen Help")
+   .setTitle("Mr. Clean Help Command")
    .setDescription(`<@${message.author.id}>` + "Below is a list of all my available Command Modules")
    .setColor("#0x3dfbff")
-   .addField("Bot Owner Only", "``gen ownercmds`` Shows a list of commands only my Developer can use")
-   .addField("Account Generator Commands", "``gen gencmds`` Shows a list of my generator commands")
-   .addField("Support Commands", "``gen support`` Shows a list of my available support commands")
-   .addField("Help Commands", "``gen helpcmds`` Shows a list of my available help commands")
+   .addField("$verify", "Sends a captcha message to be completed for server verification")
+   .addField("$unverify", "Unverifys you in the server ``YOU MAY LOSE ACCESS TO CERTAIN CHANNELS``")
+   .addField("$help", "Shows this help message")
+   .addField("$ping", "Pings the bot and checks latency and response time")
    .setFooter(`© Ninja Gen Beta`, `https://cdn.discordapp.com/avatars/544049582959755264/b5f7f7b81321f647ff62c991871bae43.png?size=2048?size=1024`)
    message.channel.send(hEmbed)
 }
