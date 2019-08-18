@@ -3,6 +3,15 @@ const Jimp = require("jimp");
 const { RichEmbed } = require("discord.js");
 const Discord = require("discord.js");
 
+const command = this.commands.get(message.command);
+    const configCommand = this.config.commands[message.command];
+    if (!command) return;
+
+  // Check if command is enabled
+ if (command.enabled === false) return message.reply("⛔ | This command has been disabled.");
+
+
+
 module.exports = async function(message) {
 		  let verifyChannel = message.guild.channels.find("name", "verify");
      if(!verifyChannel) return message.channel.send(`<@${message.guild.owner.id}>` + " Couldn't find the verification channel, please create a channel named ``verify`` before your members ccan use this command");
