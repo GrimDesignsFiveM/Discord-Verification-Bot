@@ -3,7 +3,7 @@
   "deleteMessages": false,
   "presence": {
   "type": "watching",
-    "name": "people verify"
+    "name": "My $help command"
   },
   
    "servers": {
