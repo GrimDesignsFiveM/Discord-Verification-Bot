@@ -5,6 +5,13 @@
   "type": "watching",
     "name": "people verify"
   },
+  
+   "servers": {
+    "610840809083895808": {
+      "verificationChannel": "verify",
+      "verifyRole": "Verified"
+    }
+  },
 
   "ignoreServers": [
 
