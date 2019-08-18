@@ -10,7 +10,7 @@ const fs = require("fs");
 const snekfetch = require('snekfetch');
 
 //This SHOULD allow us to use the "client, message & args" async functions.(Example: message.author.id)
-exports.run = async (client, message, args) => {
+module.exports = async function(message) {
  
 //This is your Command or Discord Rich Embed code Line followed by the end of the command. OR close "}" bracket
  message.delete().catch();	 
