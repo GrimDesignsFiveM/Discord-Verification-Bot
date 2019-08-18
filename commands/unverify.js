@@ -1,7 +1,7 @@
 module.exports = function(message) {
-
-    const guild = this.config.servers[message.guild.id];
-    message.member.removeRole(guild.verifyRole).then(() => {
+     
+     let verifyRole = message.guild.roles.find('name', `Verified`);
+      message.member.removeRole(verifyRole).then(() => {
         message.reply("✅ | Successfully unverified.");
     }).catch(err => {
         message.reply("⛔ | Could not remove role: " + err);
