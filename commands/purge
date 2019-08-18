@@ -37,7 +37,8 @@ module.exports = async function(message) {
   }
   else {
     message.reply('Usage: purge all|bots|user|images <amount>')
-  }
+  };
+}
 
 module.exports.info = {
     description: "Deletes x amount of messages",
