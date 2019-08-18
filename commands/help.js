@@ -4,10 +4,6 @@ const client = new Discord.Client({
   disableEveryone : true,
   fetchAllMembers : true
 });
- 
-const config = require("../Data/config.json");
-const fs = require("fs");
-const snekfetch = require('snekfetch');
 
 //This SHOULD allow us to use the "client, message & args" async functions.(Example: message.author.id)
 module.exports = async function(message) {
