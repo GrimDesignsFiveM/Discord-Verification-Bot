@@ -18,7 +18,7 @@ module.exports = async function(message) {
    .addField("$unverify", "Unverifys you in the server ``YOU MAY LOSE ACCESS TO CERTAIN CHANNELS``")
    .addField("$help", "Shows this help message")
    .addField("$ping", "Pings the bot and checks latency and response time")
-   .setFooter(`© Ninja Gen Beta`, `https://cdn.discordapp.com/avatars/544049582959755264/b5f7f7b81321f647ff62c991871bae43.png?size=2048?size=1024`)
+   .setFooter(`© Me. Clean`)
    message.channel.send(hEmbed)
 }
 
