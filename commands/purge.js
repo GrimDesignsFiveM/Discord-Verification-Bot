@@ -6,7 +6,7 @@ module.exports = async function(message) {
   if(args[0] === 'all') {
     let messagecount = parseInt(args[1]);
     message.channel.fetchMessages({
-      limit: 100
+      limit: 1000
     }).then(messages => message.channel.bulkDelete(messagecount))
     .catch(e => {
       if(e) return message.channel.send("Error: ", e)
