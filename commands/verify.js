@@ -6,7 +6,7 @@ const Discord = require("discord.js");
 module.exports = async function(message) {
 		  let verifyChannel = message.guild.channels.find("name", "verify");
      if(!verifyChannel) return message.channel.send(`<@${message.author.id}>` + " Couldn't find the verification channel, please create a channel named ``verify`` and try again.");;
-     if (!message.guild.roles.exists("name", "Verified")) return message.channel.send(`<@${message.guild.owner.id}>` + " You need to create a ``Verified`` role before this command can be used");
+     if (!message.guild.roles.exists("name", "Verified")) return message.channel.send(`<@${message.guild.owner.id}>` + " You need to create a ``Verified`` role before your members can use this command");
 
     if (message.args.length === 0) {
         // No arguments provided
