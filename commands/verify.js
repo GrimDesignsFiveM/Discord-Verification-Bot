@@ -26,7 +26,7 @@ module.exports = async function(message) {
         const buffer = await image.getBufferAsync(Jimp.MIME_JPEG);
         const embed = new RichEmbed()
             .setTitle("Verification")
-            .setColor(36393f)
+            .setColor(0x36393f)
             .setDescription("Please solve this captcha by sending `" + this.config.prefix + "verify [code]` in <#" + message.channel.id + ">")
             .attachFile({ attachment: buffer, name: "captcha.jpeg" })
             .setImage("attachment://captcha.jpeg");
