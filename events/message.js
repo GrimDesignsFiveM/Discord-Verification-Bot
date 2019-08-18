@@ -1,3 +1,5 @@
+const command = require("./config.json")
+
 module.exports.run = function(message) {
     // Check if server is being ignored
     if (this.config.ignoreServers.includes((message.guild || { id: "0" }).id)) return;
@@ -31,8 +33,8 @@ module.exports.run = function(message) {
     const configCommand = this.config.commands[message.command];
     if (!command) return;
 
-    // Check if command is enabled
-    if (command.enabled === false) return message.reply("⛔ | This command has been disabled.");
+  // Check if command is enabled
+ if (command.enabled === false) return message.reply("⛔ | This command has been disabled.");
 
     // Check if author is allowed to execute command
     if (!configCommand) return message.reply("⛔ | Command not set in config.json file!");
