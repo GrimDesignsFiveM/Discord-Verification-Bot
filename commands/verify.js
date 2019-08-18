@@ -3,9 +3,7 @@ const Jimp = require("jimp");
 const { RichEmbed } = require("discord.js");
 const Discord = require("discord.js");
 
-const command = this.commands.get(message.command);
-    const configCommand = this.config.commands[message.command];
-    if (!command) return;
+const command = require("./config.json")
 
   // Check if command is enabled
  if (command.enabled === false) return message.reply("⛔ | This command has been disabled.");
