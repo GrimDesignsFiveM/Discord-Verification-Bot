@@ -23,15 +23,9 @@ module.exports = async function(message) {
 }
 
 
-exports.conf = {
-  enabled: true,
-  guildOnly: true,
-  aliases: ['help', 'h'],
-  permLevel: 0
-};
-
-exports.help = {
-  name: 'help',
-  description: 'Shows a list of all commands',
-  usage: 'gen help'
+module.exports.info = {
+    description: "Sends the help message",
+    args: [
+        { required: false, description: "help" }
+    ]
 };
