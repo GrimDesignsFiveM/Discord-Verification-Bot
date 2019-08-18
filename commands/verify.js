@@ -46,7 +46,7 @@ module.exports = async function(message) {
 
         if (message.args[0] !== captcha) return message.reply("⛔ | Invalid captcha!");
         else {
-            member.addRole(verifyRole).then(() => {
+            message.member.addRole(verifyRole).then(() => {
                 message.reply("✅ | Successfully verified.");
             }).catch(console.error);
             this.query.delete(message.author.id);
