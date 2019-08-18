@@ -18,7 +18,7 @@ module.exports = async function(message) {
    .addField("$unverify", "Unverifys you in the server ``YOU MAY LOSE ACCESS TO CERTAIN CHANNELS``")
    .addField("$help", "Shows this help message")
    .addField("$ping", "Pings the bot and checks latency and response time")
-   .setFooter(`© Me. Clean`)
+   .setFooter(`© Mr. Clean`)
    message.channel.send(hEmbed)
 }
 
