@@ -41,7 +41,7 @@ module.exports = async function(message) {
         if (!this.query.has(message.author.id)) return message.reply("⛔ | Please request a captcha by sending `" + this.config.prefix + "verify`");
 
         const captcha = this.query.get(message.author.id);
-        let role = message.guild.roles.find('name', Verified);
+        let verifyRole = message.guild.roles.find('name', `Verified`);
   
 
         if (message.args[0] !== captcha) return message.reply("⛔ | Invalid captcha!");
