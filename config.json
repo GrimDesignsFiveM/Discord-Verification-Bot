@@ -26,7 +26,7 @@
     "verify": {
       "executors": [],
       "requiredPermissions": [],
-      "enabled": false
+      "enabled": true
     },
     "unverify": {
       "executors": [],
