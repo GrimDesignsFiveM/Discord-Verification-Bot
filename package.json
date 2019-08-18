@@ -1,6 +1,6 @@
 {
-  "name": "cryptonix-x-opensource",
-  "version": "1.0.0",
+  "name": "Mr. Clean",
+  "version": "Beta-Release",
   "description": "Open Source version of Cryptonix X",
   "main": "index.js",
   "scripts": {
