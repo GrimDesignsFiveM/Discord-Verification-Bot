@@ -34,10 +34,15 @@
       "requiredPermissions": [],
       "enabled": true
     },
+    "purge": {
+      "executors": [],
+      "requiredPermissions": [],
+      "enabled": true
+    },
     "version": {
       "executors": [],
       "requiredPermissions": [],
-      "enabled": false
+      "enabled": true
     }
   }
 }
