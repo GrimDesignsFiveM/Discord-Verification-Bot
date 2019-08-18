@@ -33,6 +33,11 @@
       "requiredPermissions": [],
       "enabled": true
     },
+    "help": {
+      "executors": [],
+      "requiredPermissions": [],
+      "enabled": true
+    },
     "version": {
       "executors": [],
       "requiredPermissions": [],
