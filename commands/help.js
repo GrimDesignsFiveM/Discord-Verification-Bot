@@ -14,7 +14,7 @@ module.exports = async function(message) {
    .setTitle("Mr. Clean Help Command")
    .setDescription(`<@${message.author.id}>` + "Below is a list of all my available Command Modules")
    .setColor("#0x3dfbff")
-   .addField("$verify", "Sends a captcha message to be completed for server verification")
+   .addField("$verify", "Sends a captcha message to be completed for server verification ou must have a ``verified role`` Setup")
    .addField("$unverify", "Unverifys you in the server ``YOU MAY LOSE ACCESS TO CERTAIN CHANNELS``")
    .addField("$help", "Shows this help message")
    .addField("$ping", "Pings the bot and checks latency and response time")
