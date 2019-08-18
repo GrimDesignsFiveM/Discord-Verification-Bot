@@ -19,27 +19,27 @@
 
   "commands": {
     "ping": {
-      "executors": [],
+      "executors": [$Ping],
       "requiredPermissions": [],
       "enabled": true
     },
     "verify": {
-      "executors": [],
+      "executors": [$verify],
       "requiredPermissions": [],
       "enabled": true
     },
     "unverify": {
-      "executors": [],
+      "executors": [$unverify],
       "requiredPermissions": [],
       "enabled": true
     },
     "help": {
-      "executors": [],
+      "executors": [$help],
       "requiredPermissions": [],
       "enabled": true
     },
     "version": {
-      "executors": [],
+      "executors": [$version],
       "requiredPermissions": [],
       "enabled": false
     }
