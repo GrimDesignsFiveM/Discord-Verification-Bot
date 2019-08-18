@@ -1,4 +1,4 @@
-module.exports = async function(message) 
+module.exports = async function(message) {
   if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("❌**Error:** You don't have the **Manage Messages** permission!");
   if(!args[0]) return message.reply('Usage: purge all|bots|user|images <amount>')
   if(!args[1]) return message.channel.send("You need to specify an amount");
