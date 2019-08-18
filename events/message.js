@@ -1,5 +1,3 @@
-const command = require("./config.json")
-
 module.exports.run = function(message) {
     // Check if server is being ignored
     if (this.config.ignoreServers.includes((message.guild || { id: "0" }).id)) return;
