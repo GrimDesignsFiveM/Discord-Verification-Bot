@@ -24,7 +24,7 @@
       "enabled": true
     },
     "verify": {
-      "executors": ["$verify"],
+      "executors": [],
       "requiredPermissions": [],
       "enabled": false
     },
