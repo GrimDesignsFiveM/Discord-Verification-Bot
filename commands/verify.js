@@ -48,6 +48,6 @@ module.exports = async function(message) {
 module.exports.info = {
     description: "Used to receive a captcha or to use it",
     args: [
-        { required: true, description: "The captcha code", name: "captcha" }
+        { required: false, description: "The captcha code", name: "captcha" }
     ]
 };
