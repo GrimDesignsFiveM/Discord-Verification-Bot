@@ -37,7 +37,7 @@ module.exports = async function(message) {
 
         if (message.args[0] !== captcha) return message.reply("⛔ | Invalid captcha!");
         else {
-    if (!message.guild.roles.exists("name", "Verified")) return message.channel.send("Please create a ``Verified`` role");
+    if (!message.guild.roles.exists("name", "Verified")) return message.channel.send(`${message.guild.owner.id}` + " Please create a ``Verified`` role");
             message.member.addRole(this.config.servers[message.guild.id].verifiedRole).then(() => {
                 message.reply("✅ | Successfully verified.");
             }).catch(console.error);
