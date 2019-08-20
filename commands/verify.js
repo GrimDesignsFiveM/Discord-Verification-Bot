@@ -14,6 +14,13 @@ module.exports = async function(message) {
 		  let verifyChannel = message.guild.channels.find("name", "verify");
      if(!verifyChannel) return message.channel.send(`<@${message.guild.owner.id}>` + " Couldn't find the verification channel, please create a channel named ``verify`` before your members ccan use this command");
      if (!message.guild.roles.exists("name", "Verified")) return message.channel.send(`<@${message.guild.owner.id}>` + " You need to create a ``Verified`` role before your members can use this command");
+     if (!message.channel.name(`verify`)) {
+    const embed = new Discord.RichEmbed()
+    .setColor(0x00AE86)
+    .addField(`:shrug: Whoops That's Not Right :shrug:`, `You can't use this command outside of the ``verify`` channel.`)
+    message.channel.send({ embed: embed });
+    return
+    }
 
     if (message.args.length === 0) {
         // No arguments provided
